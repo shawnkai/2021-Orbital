@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:hardwareAccelerated="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="YD_Carpark"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".Carparksrc"></activity>
+        <activity android:name=".Carpark16" />
+        <activity android:name=".Carpark15" />
+        <activity android:name=".Carpark12b" />
+        <activity android:name=".Carpark12a" />
+        <activity android:name=".Carpark11" />
+        <activity android:name=".Carpark12" />
+        <activity android:name=".Carpark10b" />
+        <activity android:name=".Carpark10a" />
+        <activity android:name=".Carpark10" />
+        <activity android:name=".Carpark5" />
+        <activity android:name=".Carpark4" />
+        <activity android:name=".Carpark3a" />
+        <activity android:name=".Carpark3" />
+        <activity android:name=".Carpark2b" />
+        <activity android:name=".Carpark2a" />
+        <activity android:name=".Carpark2" />
+        <activity android:name=".Carpark1" />
+        <activity android:name=".Search_result" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>

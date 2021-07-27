@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search_result">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="359dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="52dp"
+        android:text="Here are the 3 closest carparks"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/firstcarpark"
+        android:layout_width="374dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="20dp"
+        android:background="#AA3030"
+        android:backgroundTint="#EDE1E1"
+        android:drawableTop="@drawable/parking_v2"
+        android:drawablePadding="0sp"
+        android:paddingRight="220sp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/secondcarpark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="221dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="48dp"
+        android:elevation="100dp"
+        android:text="1st Carpark"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/firstcarpark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/secondcarpark"
+        android:layout_width="374dp"
+        android:layout_height="124dp"
+        android:background="#AA3030"
+        android:backgroundTint="#EDE1E1"
+        android:drawableTop="@drawable/parking_v2"
+        android:drawablePadding="0sp"
+        android:paddingRight="220sp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="225dp"
+        android:layout_height="66dp"
+        android:elevation="100dp"
+        android:text="2nd Carpark"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/secondcarpark"
+        app:layout_constraintEnd_toEndOf="@+id/secondcarpark"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/secondcarpark" />
+
+    <Button
+        android:id="@+id/thirdcarpark"
+        android:layout_width="374dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="52dp"
+        android:background="#AA3030"
+        android:backgroundTint="#EDE1E1"
+        android:drawableTop="@drawable/parking_v2"
+        android:drawablePadding="0sp"
+        android:paddingRight="220sp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondcarpark" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="210dp"
+        android:layout_height="74dp"
+        android:elevation="100dp"
+        android:text="3rd Carpark"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/thirdcarpark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/thirdcarpark"
+        app:layout_constraintVertical_bias="0.6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
